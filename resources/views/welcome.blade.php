@@ -103,7 +103,7 @@
                             <tr>
                                 <td>{{ $loop->iteration }}</td>
                                 <td>{{ $item->nama }}</td>
-                                <td><a href="{{ route('sertifikat', $item->id) }}" class="btn btn-primary" target="_blank">Lihat</a></td>
+                                <td><a href="{{ route('sertifikat', $item->id) }}" class="btn btn-primary">Lihat</a></td>
                             </tr>
                             @endforeach
                         </tbody>
