@@ -48,6 +48,6 @@ class HomeController extends Controller
 
         }
 
-        return $fpdi->Output($outputFilePath, 'F');
+        return $fpdi->Output($outputFilePath, 'D');
     }
 }
